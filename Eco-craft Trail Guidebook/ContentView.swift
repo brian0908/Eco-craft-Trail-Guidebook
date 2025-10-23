@@ -183,7 +183,7 @@ private let methodsDrainage: [Method] = [
 			Step(title: "迎水坡面埋設塊石", detail: "迎水底部埋 5–10cm 塊石或 2–3cm 碎石混土並夯實。"),
 			Step(title: "設置消能設施", detail: "出水點拋置塊石形成跌水消能。")
 		],
-		materials: ["橫木：Ø15–20cm；木樁：Ø5–8cm、長40–50cm（每根橫木≥3支）；小塊石：Ø5–15cm；回填土石：2–3cm 碎石混土"]
+		materials: ["橫木：Ø15–20cm","木樁：Ø5–8cm、長40–50cm（每根橫木≥3支）；小塊石：Ø5–15cm","回填土石：2–3cm 碎石混土"]
 	),
 	Method(
 		name: "砌石導流棒",
@@ -196,7 +196,7 @@ private let methodsDrainage: [Method] = [
 			Step(title: "迎水坡面埋設塊石", detail: "迎水底部 5–10cm 塊石或 2–3cm 碎石混土夯實。"),
 			Step(title: "設置消能設施", detail: "出水點疊石跌水消能。")
 		],
-		materials: ["塊石：厚>20cm 且≥兩面平整；小塊石：Ø5–15cm；回填土石：2–3cm 碎石混土"]
+		materials: ["塊石：厚>20cm 且≥兩面平整","小塊石：Ø5–15cm","回填土石：2–3cm 碎石混土"]
 	),
 	Method(
 		name: "砌石反向坡",
@@ -209,7 +209,7 @@ private let methodsDrainage: [Method] = [
 			Step(title: "迎水坡面埋設塊石", detail: "迎水底部 5–10cm 塊石或 2–3cm 碎石混土夯實。"),
 			Step(title: "設置消能設施", detail: "出水點拋置塊石形成跌水。")
 		],
-		materials: ["塊石：厚>20cm；小塊石：Ø5–15cm；回填土石：2–3cm 碎石混土"]
+		materials: ["塊石：厚>20cm","小塊石：Ø5–15cm","回填土石：2–3cm","碎石混土"]
 	),
 	Method(
 		name: "砌石截水溝",
@@ -221,7 +221,7 @@ private let methodsDrainage: [Method] = [
 			Step(title: "背填土石", detail: "溝壁背面分層夯實至路面高。"),
 			Step(title: "設置消能設施", detail: "出水點疊石/護底避免淘刷。")
 		],
-		materials: ["塊石：厚>20cm；小塊石：Ø5–15cm；回填土石：2–3cm 碎石混土"]
+		materials: ["塊石：厚>20cm","小塊石：Ø5–15cm","回填土石：2–3cm","碎石混土"]
 	),
 	Method(
 		name: "砌石固床工",
@@ -234,7 +234,7 @@ private let methodsDrainage: [Method] = [
 			Step(title: "放置壓頂石", detail: "最上層用大重石並留「凹」字形溢流口。"),
 			Step(title: "溝底回填塊石", detail: "上游回填抗沖石；下游出水口護底拋石。")
 		],
-		materials: ["壩體塊石：>20cm 且平面足；小塊石：Ø5–15cm"]
+		materials: ["壩體塊石：>20cm 且平面足","小塊石：Ø5–15cm"]
 	)
 ]
 
@@ -249,7 +249,7 @@ private let methodsSlope: [Method] = [
 			Step(title: "填塞塊石（排水層）", detail: "橫木與路面間填 10–15cm 塊石作排水層並防流失。"),
 			Step(title: "回填夯實與整坡", detail: "踏面碎石土方回填夯實，外傾，完成面略高於橫木。")
 		],
-		materials: ["橫木：Ø15–20cm；木樁：Ø5–8cm、長40–50cm（每橫木≥3支）；塊石：Ø10–15cm；回填土石：2–3cm 碎石混土"]
+		materials: ["橫木：Ø15–20cm","木樁：Ø5–8cm、長40–50cm（每橫木≥3支）","塊石：Ø10–15cm","回填土石：2–3cm","碎石混土"]
 	),
 	Method(
 		name: "木格框護坡",
@@ -262,7 +262,7 @@ private let methodsSlope: [Method] = [
 			Step(title: "逐層往上架設", detail: "自下而上略內退縮至預定高度，完成面微後傾。"),
 			Step(title: "修坡夯實", detail: "踏面回填夯實並形成外傾。")
 		],
-		materials: ["橫木：Ø12–15cm；木樁：Ø8–10cm（入土≥1/2）；大塊石：Ø15–20cm；回填土石：2–3cm 碎石混土"]
+		materials: ["橫木：Ø12–15cm","木樁：Ø8–10cm（入土≥1/2）","大塊石：Ø15–20cm","回填土石：2–3cm 碎石混土"]
 	),
 	Method(
 		name: "打樁編柵",
@@ -273,7 +273,7 @@ private let methodsSlope: [Method] = [
 			Step(title: "逐層施作與回填", detail: "連續設置並同步以土石回填逐層穩固。"),
 			Step(title: "各層間投置塊石", detail: "各層間投 10–15cm 塊石作排水與防護層。")
 		],
-		materials: ["竹柵：Ø8–20cm（2–3年生）；竹樁：Ø≈3cm、長40–50cm（每組≥3支）；塊石：Ø10–15cm"]
+		materials: ["竹柵：Ø8–20cm（2–3年生）","竹樁：Ø≈3cm、長40–50cm（每組≥3支）","塊石：Ø10–15cm"]
 	),
 	Method(
 		name: "砌石護坡",
@@ -286,7 +286,7 @@ private let methodsSlope: [Method] = [
 			Step(title: "放置壓頂石", detail: "頂層用體積大自重足的平整石頭增穩。"),
 			Step(title: "回填夯實", detail: "踏面回填夯實並形成外傾。")
 		],
-		materials: ["塊石：厚>20cm；小塊石：Ø5–15cm；回填土石：2–3cm 碎石混土"]
+		materials: ["塊石：厚>20cm","小塊石：Ø5–15cm","回填土石：2–3cm","碎石混土"]
 	),
 	Method(
 		name: "卵石護坡",
@@ -299,7 +299,7 @@ private let methodsSlope: [Method] = [
 			Step(title: "接續往上疊砌", detail: "錯縫（六圍砌）逐層內退，牆高不超過長徑 5 倍；續高需內退後再砌。"),
 			Step(title: "回填夯實", detail: "踏面回填夯實並外傾。")
 		],
-		materials: ["卵石：Ø20–40cm；小塊石：Ø5–15cm；回填土石：2–3cm 碎石混土"]
+		materials: ["卵石：Ø20–40cm","小塊石：Ø5–15cm","回填土石：2–3cm","碎石混土"]
 	)
 ]
 
@@ -314,7 +314,7 @@ private let methodsStair: [Method] = [
 			Step(title: "二側封邊", detail: "側埋塊石或橫木＋木樁，頂與橫木同高避免流失。"),
 			Step(title: "踏面回填", detail: "先填塊石再碎石/土方夯實，面略高於橫木。")
 		],
-		materials: ["橫木：Ø15–20cm；木樁：Ø5–8cm、長40–50cm（每橫木2支）；封邊石/橫木：Ø15–20cm；回填：2–3cm 碎石混土"]
+		materials: ["橫木：Ø15–20cm","木樁：Ø5–8cm、長40–50cm（每橫木2支）","封邊石/橫木：Ø15–20cm","回填：2–3cm 碎石混土"]
 	),
 	Method(
 		name: "砌石階梯",
@@ -325,7 +325,7 @@ private let methodsStair: [Method] = [
 			Step(title: "回填土石", detail: "內側夾縫先小石再碎石/土方夯實。"),
 			Step(title: "依序往上施作", detail: "由下而上、踏面石大者可壓上階；上下層接縫交丁錯開。")
 		],
-		materials: ["踏面石：>25kg 且≥兩面平整；小塊石：Ø5–15cm；回填：2–3cm 碎石混土"]
+		materials: ["踏面石：>25kg 且≥兩面平整","小塊石：Ø5–15cm","回填：2–3cm 碎石混土"]
 	),
 	Method(
 		name: "卵石階梯",
@@ -335,7 +335,7 @@ private let methodsStair: [Method] = [
 			Step(title: "埋設護石", detail: "踏面兩側埋較小卵石，彼此緊靠咬合。"),
 			Step(title: "依序往上施作", detail: "由下而上持續配置重量足之卵石。")
 		],
-		materials: ["踏面石：長邊>60cm、厚度足且不過圓；護石：較小卵石作側護"]
+		materials: ["踏面石：長邊>60cm、厚度足且不過圓","護石：較小卵石作側護"]
 	)
 ]
 
@@ -350,7 +350,7 @@ private let methodsBridge: [Method] = [
 			Step(title: "填塞塊石（排水層）", detail: "橫木間與路面間填 5–10cm 塊石作排水層。"),
 			Step(title: "回填夯實與整坡", detail: "踏面回填夯實成外傾，完成面略高於橫木頂端。")
 		],
-		materials: ["橋體橫木：Ø15–20cm（長度依跨距）；木樁：Ø5–8cm、長40–50cm（兩端各≥1支）；塊石：Ø5–10cm；回填：2–3cm 碎石混土"]
+		materials: ["橋體橫木：Ø15–20cm（長度依跨距）","木樁：Ø5–8cm、長40–50cm（兩端各≥1支）","塊石：Ø5–10cm","回填：2–3cm 碎石混土"]
 	)
 ]
 
@@ -366,15 +366,66 @@ private let categories: [MethodCategory] = [
 
 // MARK: - Case Studies
 private let caseStudies: [CaseStudy] = [
-	CaseStudy(name: "小粗坑古道", location: "桃園市龍潭區", usedMethods: [methodsSlope[3]], notes: "在地塊石砌築護坡，穩定路基並與環境融合。", imageName: "小粗坑"),
-	CaseStudy(name: "文山森林公園步道", location: "臺北市文山區", usedMethods: [methodsDrainage[3]], notes: "截流導排，維持路面穩定。", imageName: "文山"),
-	CaseStudy(name: "東吉島環島步道", location: "澎湖縣望安鄉", usedMethods: [methodsPaving[0]], notes: "路跡整理與透水鋪面，減少逕流沖蝕。", imageName: "東吉"),
-	CaseStudy(name: "梅峰農場步道", location: "南投縣信義鄉", usedMethods: [methodsStair[0]], notes: "土木階梯穩固陡坡並提升行走舒適度。", imageName: "梅峰"),
-	CaseStudy(name: "嘉明湖國家步道", location: "臺東縣海端鄉", usedMethods: [methodsSlope[3]], notes: "砌石護坡與排水維護並行。", imageName: "台東")
+	CaseStudy(
+		name: "小粗坑古道",
+		location: "桃園市龍潭區",
+		usedMethods: [methodsSlope[3]],
+		notes: "使用在地塊石砌築護坡，穩定步道路基並與自然環境融合。",
+		imageName: "小粗坑"
+	),
+	CaseStudy(
+		name: "米棧古道",
+		location: "花蓮縣壽豐鄉",
+		usedMethods: [methodsDrainage[0]],
+		notes: "利用橫木改善路面排水，減少逕流沖刷。",
+		imageName: "米棧"
+	),
+	CaseStudy(
+		name: "文山森林公園步道",
+		location: "臺北市文山區",
+		usedMethods: [methodsDrainage[3]],
+		notes: "利用橫木改善路面排水，減少逕流沖刷。",
+		imageName: "文山"
+	),
+	CaseStudy(
+		name: "東吉嶼環島步道",
+		location: "澎湖縣望安鄉",
+		usedMethods: [methodsPaving[0]],
+		notes: "利用橫木改善路面排水，減少逕流沖刷。",
+		imageName: "東吉"
+	),
+	CaseStudy(
+		name: "梅峰農場步道",
+		location: "南投縣信義鄉",
+		usedMethods: [methodsStair[0]],
+		notes: "以橫木階梯穩固陡坡步道並提升行走舒適度。",
+		imageName: "梅峰"
+	),
+	CaseStudy(
+		name: "石角嶺古道",
+		location: "臺北市士林區",
+		usedMethods: [methodsStair[1]],
+		notes: "以砌石階梯穩固陡坡步道並提升行走舒適度。",
+		imageName: "士林"
+	),
+	CaseStudy(
+		name: "外挖子山步道",
+		location: "新北市中和區",
+		usedMethods: [methodsSlope[0]],
+		notes: "以橫木護坡穩定陡峭邊坡並鞏固路基。",
+		imageName: "中和"
+	),
+	CaseStudy(
+		name: "嘉明湖國家步道",
+		location: "臺東縣海端鄉",
+		usedMethods: [methodsSlope[3]],
+		notes: "以橫木護坡穩定陡峭邊坡並鞏固路基。",
+		imageName: "台東"
+	)
 ]
 
 // Helper: featured cases for Home highlights
-private let featuredCaseNames = ["嘉明湖", "東吉", "梅峰", "文山"]
+private let featuredCaseNames = ["嘉明湖", "東吉", "梅峰", "米棧"]
 private var featuredCases: [CaseStudy] {
 	caseStudies.filter { cs in featuredCaseNames.contains(where: { cs.name.contains($0) }) }
 }
@@ -450,19 +501,16 @@ struct AnnouncementCard<Content: View>: View {
 	@ViewBuilder var content: () -> Content
 
 	var body: some View {
-		VStack(spacing: 2) {
-			ScrollView {               // (used in Home highlights)
+		VStack(spacing: 0) {
 				VStack(alignment: .leading, spacing: 12) { content() }
-					.frame(maxWidth: 230, alignment: .leading)
+					.frame(maxWidth: 280, alignment: .leading)
 					.padding(12)
-			}
-			.scrollIndicators(.hidden)
 		}
 		.frame(height: cardHeight)
 		.frame(maxWidth: 300)
 		.clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
 		.glassEffect(.clear.interactive(), in: .rect(cornerRadius: 22))
-		.padding(.horizontal, 16)
+		.padding(.horizontal, 5)
 	}
 }
 
@@ -470,17 +518,25 @@ struct GlassButton: View {
 	let icon: String
 	let title: String
 	var action: () -> Void
+
 	var body: some View {
 		Button(action: action) {
-			Label(title, systemImage: icon)
-				.font(.subheadline.bold())
-				.padding(.horizontal, 14).padding(.vertical, 8)
-				.background(
-					Capsule().glassEffect(.clear.interactive(), in: .capsule)
-				)
+			Label {
+				Text(title)
+					.font(.subheadline.bold())
+					.foregroundStyle(.white)          // ← 文字白
+			} icon: {
+				Image(systemName: icon)
+					.foregroundStyle(.white)          // ← 圖示白
+			}
+			.padding(.horizontal, 14)
+			.padding(.vertical, 8)
+			.background(
+				Capsule().glassEffect(.clear.interactive(), in: .capsule)
+			)
 		}
 		.buttonStyle(.plain)
-		.tint(.white)
+		.tint(.white)                                   // ← 保持互動/高亮為白
 	}
 }
 
@@ -508,40 +564,39 @@ struct HomeView: View {
 						.padding(.horizontal)
 
 					ForEach(chapters) { chapter in
-						VStack(alignment: .leading, spacing: 12) {
+						VStack(alignment: .leading, spacing: 8) {
 							Text(chapter.title)
 								.font(.title3.bold())
 								.padding(.horizontal)
 
 							ScrollView(.horizontal, showsIndicators: false) {
-								HStack(spacing: 12) {
+								HStack(spacing: 0) {
 									ForEach(chapter.highlights) { item in
 										NavigationLink {
 											destination(for: item.link)
 										} label: {
-											AnnouncementCard(title: item.title, cardHeight: 280) {
+											AnnouncementCard(title: item.title, cardHeight: 230) {
 												Image(item.imageName)
 													.resizable()
 													.scaledToFill()
-													.frame(height: 120)
+													.frame(height: 150)
 													.clipped()
 													.clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
 
 												Text(item.title).font(.headline)
-												Text(item.subtitle).font(.footnote).opacity(0.9)
+												Text(item.subtitle).font(.footnote)
 											}
 										}
 										.buttonStyle(.plain)
 									}
 								}
-								.padding(.horizontal)
 							}
 						}
 					}
 				}
 				.padding(.vertical, 16)
 				.padding(.top, 80)
-				.padding(.bottom, 28)
+				.padding(.bottom, 70)
 				.foregroundStyle(.white)
 				.tint(.white)
 			}
@@ -581,7 +636,6 @@ struct MethodsView: View {
 						.scrollContentBackground(.hidden)
 						.background(.clear)
 						.listStyle(.insetGrouped)
-						.navigationTitle(category.name)
 						.navigationBarTitleDisplayMode(.inline)
 						.toolbarBackground(.clear, for: .navigationBar)
 						.toolbarBackgroundVisibility(.hidden, for: .navigationBar)
@@ -629,6 +683,7 @@ struct CasesView: View {
 			.scrollContentBackground(.hidden)
 			.background(Color.clear)
 			.listStyle(.insetGrouped)
+			.padding(.top, 80)
 		}
 	}
 }
@@ -658,49 +713,165 @@ struct MethodDetailView: View {
 struct IntroDetailView: View {
 	let intro: Intro
 	var body: some View {
-		List {
-			Section(intro.name) { Text(intro.summary) }
+		VStack(){
+			Image(intro.imageName)
+				.resizable()
+				.scaledToFill()
+				.frame(maxWidth: .infinity, minHeight: 200, maxHeight: 220)
+				.clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
+				.overlay(
+					RoundedRectangle(cornerRadius: 14, style: .continuous)
+						.stroke(.black.opacity(0.06), lineWidth: 1)
+				)
+				.shadow(color: .black.opacity(0.06), radius: 6, y: 3)
+				.padding(.horizontal)
+			
+			List {
+				Section(intro.name) { Text(intro.summary) }
+			}
+			.listStyle(.insetGrouped)
+			.navigationTitle(intro.name)
 		}
-		.listStyle(.insetGrouped)
-		.navigationTitle(intro.name)
 	}
 }
 
 struct CaseDetailView: View {
 	let caseStudy: CaseStudy
-	var body: some View {
-		ScrollView {
-			VStack(spacing: 12) {
-				Image(caseStudy.imageName)
-					.resizable()
-					.scaledToFill()
-					.frame(maxWidth: .infinity, minHeight: 180)
-					.clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
-					.padding(.horizontal)
 
-				VStack(alignment: .leading, spacing: 10) {
-					Group {
-						Text("基本資訊").font(.headline)
-						Text("路段：\(caseStudy.name)")
-						Text("地點：\(caseStudy.location)")
+	var body: some View {
+		ZStack {
+			Color(.systemGroupedBackground)
+				.ignoresSafeArea()
+
+			ScrollView {
+				VStack(spacing: 16) {
+
+					// Header image
+					Image(caseStudy.imageName)
+						.resizable()
+						.scaledToFill()
+						.frame(maxWidth: .infinity, minHeight: 200, maxHeight: 220)
+						.clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
+						.overlay(
+							RoundedRectangle(cornerRadius: 14, style: .continuous)
+								.stroke(.black.opacity(0.06), lineWidth: 1)
+						)
+						.shadow(color: .black.opacity(0.06), radius: 6, y: 3)
+						.padding(.horizontal)
+
+					// Content
+					VStack(alignment: .leading, spacing: 18) {
+
+						// 基本資訊
+						Group {
+							Text("基本資訊")
+								.font(.headline)
+
+							VStack(alignment: .leading, spacing: 8) {
+								LabeledContent("路段", value: caseStudy.name)
+								LabeledContent("地點", value: caseStudy.location)
+							}
+							.padding(12)
+							.background(
+								RoundedRectangle(cornerRadius: 12, style: .continuous)
+									.fill(.white)
+									.shadow(color: .black.opacity(0.05), radius: 4, y: 2)
+							)
+							.overlay(
+								RoundedRectangle(cornerRadius: 12, style: .continuous)
+									.stroke(.black.opacity(0.06), lineWidth: 1)
+							)
+						}
+
+						// 使用工法（白色整排卡片）
+						Group {
+							Text("使用工法")
+								.font(.headline)
+
+							VStack(spacing: 10) {
+								ForEach(caseStudy.usedMethods, id: \.self) { m in
+									NavigationLink {
+										MethodDetailView(method: m)
+									} label: {
+										MethodRow(method: m)
+									}
+									.buttonStyle(.plain)
+								}
+							}
+						}
+
+						// 說明
+						Group {
+							Text("說明")
+								.font(.headline)
+
+							Text(caseStudy.notes)
+								.frame(maxWidth: .infinity, alignment: .leading)
+								.padding(12)
+								.background(
+									RoundedRectangle(cornerRadius: 12, style: .continuous)
+										.fill(.white)
+										.shadow(color: .black.opacity(0.05), radius: 4, y: 2)
+								)
+								.overlay(
+									RoundedRectangle(cornerRadius: 12, style: .continuous)
+										.stroke(.black.opacity(0.06), lineWidth: 1)
+								)
+						}
 					}
-					Divider()
-					Text("使用工法").font(.headline)
-					ForEach(caseStudy.usedMethods, id: \.self) { m in
-						NavigationLink(m.name) { MethodDetailView(method: m) }
-					}
-					Divider()
-					Text("說明").font(.headline)
-					Text(caseStudy.notes)
+					.padding(.horizontal)
+					.padding(.bottom, 24)
 				}
-				.padding(.horizontal)
-				.padding(.bottom, 24)
 			}
 		}
 		.navigationTitle(caseStudy.name)
 		.navigationBarTitleDisplayMode(.inline)
 	}
 }
+
+// MARK: - Full-width white card row
+// MARK: - Full-width white card row
+private struct MethodRow: View {
+	let method: Method
+
+	var body: some View {
+		HStack(alignment: .center, spacing: 12) {
+			Image(systemName: "hammer.fill")
+				.font(.title3)
+				.frame(width: 28, height: 28)
+
+			VStack(alignment: .leading, spacing: 4) {
+				Text(method.name)
+					.font(.headline)
+					.lineLimit(1)
+				Text(method.summary)
+					.font(.subheadline)
+					.foregroundStyle(.secondary)
+					.lineLimit(2)
+			}
+
+			Spacer(minLength: 8)
+
+			Image(systemName: "chevron.right")
+				.font(.footnote.weight(.bold))
+				.foregroundStyle(.secondary)
+		}
+		.padding(.horizontal, 14)
+		.padding(.vertical, 12)
+		.frame(maxWidth: .infinity, alignment: .leading)
+		.background(
+			RoundedRectangle(cornerRadius: 12, style: .continuous)
+				.fill(.white)
+				.shadow(color: .black.opacity(0.05), radius: 4, y: 2)
+		)
+		.overlay(
+			RoundedRectangle(cornerRadius: 12, style: .continuous)
+				.stroke(.black.opacity(0.06), lineWidth: 1)
+		)
+		.contentShape(Rectangle())
+	}
+}
+
 
 // MARK: - Participate (bg + two org cards)
 struct OrgCard: View {
@@ -710,6 +881,7 @@ struct OrgCard: View {
 
 	var body: some View {
 		VStack(spacing: 2) {
+			// Header 圖
 			ZStack {
 				RoundedRectangle(cornerRadius: 22, style: .continuous)
 					.fill(.clear)
@@ -735,16 +907,32 @@ struct OrgCard: View {
 					}
 			}
 
+			// 內容（可捲動）
 			ScrollView {
 				VStack(alignment: .leading, spacing: 10) {
-					Text(org.name).font(.title3.bold())
-					Text(org.intro).font(.body).fixedSize(horizontal: false, vertical: true)
-					Divider()
-					VStack(alignment: .leading, spacing: 6) {
-						ForEach(org.highlights, id: \.self) { line in
-							Label(line, systemImage: "checkmark.circle").font(.subheadline)
+					// ---- 白色文字區塊 ----
+					Group {
+						Text(org.name)
+							.font(.title3.bold())
+
+						Text(org.intro)
+							.font(.body)
+							.fixedSize(horizontal: false, vertical: true)
+
+						Rectangle()
+							.frame(height: 1)
+							.foregroundStyle(.white.opacity(0.25))
+
+						VStack(alignment: .leading, spacing: 6) {
+							ForEach(org.highlights, id: \.self) { line in
+								Label(line, systemImage: "checkmark.circle")
+									.font(.subheadline)
+							}
 						}
 					}
+					.foregroundStyle(.white)   // ← 這裡把文字與標示設為白色
+
+					// ---- 連結按鈕（保持原本色）----
 					HStack(spacing: 30) {
 						if let urlStr = org.website, let url = URL(string: urlStr) {
 							GlassButton(icon: "safari", title: "官網") { openURL(url) }
@@ -764,6 +952,7 @@ struct OrgCard: View {
 		.frame(height: cardHeight)
 		.frame(maxWidth: 300)
 		.padding(.horizontal, 16)
+		.padding(.vertical, 16)
 		.background(
 			RoundedRectangle(cornerRadius: 22, style: .continuous)
 				.glassEffect(.clear.interactive(), in: .rect(cornerRadius: 22))
@@ -802,6 +991,7 @@ struct ParticipateView: View {
 				.padding(.vertical, 24)
 				.padding(.top, 80)
 				.padding(.bottom, 80)
+				.padding(.horizontal, 50)
 				.tint(.white)
 			}
 			.scrollIndicators(.hidden)
