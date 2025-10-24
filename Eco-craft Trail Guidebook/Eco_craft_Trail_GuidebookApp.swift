@@ -19,6 +19,7 @@ struct Eco_craft_Trail_GuidebookApp: App {
 									   .font: UIFont.boldSystemFont(ofSize: 17)]
 		ap.largeTitleTextAttributes = [.foregroundColor: UIColor.black,
 									   .font: UIFont.boldSystemFont(ofSize: 34)]
+		
 	}
 
 	var body: some Scene {
